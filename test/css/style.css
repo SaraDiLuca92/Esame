@@ -19,7 +19,7 @@ body {
 }
 nav {
   width: 328px;
-  height: 300px;
+  height: 310px;
   border: 1px solid #dee1e3;
   text-align: center;
   background-image: url(../images/banner.jpg);
@@ -28,12 +28,12 @@ nav {
 }
 h1 {
   font-family: Montserrat(bold);
-  line-height: 1;
+  line-height: 1.5;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 17px;
   margin-left: 1em;
   margin-right: 1em;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: #25a2c3;
   text-decoration: 1px solid black;
@@ -43,7 +43,7 @@ nav p {
   font-size: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  margin-top: 1em;
+  margin-top: 0em;
 }
 #button {
   margin-top: 2em;
@@ -64,7 +64,7 @@ main {
   height: 870px;
   border: 0px solid #dee1e3;
   background-color: white;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
 }
 h2 {
   font-family: Montserrat(bold);
@@ -109,42 +109,37 @@ p {
   font-size: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  margin-top: 1em;
+  margin-top: 1px;
   line-height: 1.65;
 }
-#MarioRossi {
-  color: white;
-  font-weight: bold;
-  font-family: Montserrat;
-  text-align: center;
-  font-size: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 1em;
-  line-height: 1.65;
-}
+
 aside {
   background-color: #e22d0e;
   width: 328px;
-  height: 200px;
+  height: 225px;
+  margin-top: 3em;
   margin-bottom: 2em;
-  margin-top: 2em;
+  text-align: center;
+  border: 1px solid #dee1e3;
 }
 aside h2 {
   text-align: center;
   line-height: 1.5;
   color: white;
-  margin-top: 10px;
+
   font-family: Montserrat (bold);
 }
+
 .tre {
   width: 300px;
-  height: 350px;
+  height: 400px;
   margin-left: 1em;
   margin-right: 1em;
   border: 1px solid #dee1e3;
   background-color: white;
+  margin-top: 1em;
 }
+
 .tre img {
   width: 100%;
 }
@@ -153,31 +148,37 @@ aside h2 {
 }
 .due {
   width: 300px;
-  height: 350px;
+  height: 400px;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   border: 1px solid #dee1e3;
   background-color: white;
+}
+.due h2 {
+  margin-top: 1em;
 }
 #computerino {
   width: 100%;
 }
 .uno {
   width: 300px;
-  height: 350px;
+  height: 400px;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   border: 1px solid #dee1e3;
   background-color: white;
 }
+.uno h2 {
+  margin-top: 1em;
+}
 #epicoders {
   width: 100%;
 }
 footer {
   width: 328px;
-  height: 210px;
+  height: 220px;
   background-color: #25a2c3;
   margin: 0%;
   text-align: center;
@@ -207,4 +208,23 @@ footer p {
 
 a {
   color: #c8e7f0;
+}
+#GARANZIA {
+  margin-top: 0px;
+}
+#Mario {
+  color: white;
+  text-align: center;
+
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  line-height: 1.65;
+}
+b {
+  font-weight: bold;
 }
